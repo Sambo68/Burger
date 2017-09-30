@@ -4,8 +4,10 @@ var mysql = require('mysql');
 var connection;
 
 if(process.env.JAWSDB_URL) {
+  console.log('about stablishing connection');
     //Heroku deployment
     connection = mysql.createConnection(process.env.JAWSDB_URL);
+    console.log('after stablishing connection');
 } else{
   //local host
     connection = mysql.createConnection({
