@@ -3,9 +3,11 @@ A Burger Eatin' Application With Node.js/Express/MySQL/Handlebars/Materialize
 
 ## Description
 
-This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and elements from the Materialize framework and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars.
+* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
-The user may enter any burger name to add it to the menu. This also adds the new burger entry into the MySQL database. The initial burger entry is added as *available* on the menu and placed on the left side of the screen. The user may then eat any burger by clicking on it, which moves it into the adjacent column and updates its status accordingly in the database.
+* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+
+* Each burger in the waiting area also has a `Eat it!` button. When the user clicks it, the burger will move to the right side of the page.
 
 ## Demo
 
